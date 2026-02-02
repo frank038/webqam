@@ -19,8 +19,10 @@ python3 qcamera.py WIDTH HEIGHT
 WIDTH and HEIGHT is the right resolution of the webcam, otherwise the best resolution will be used.
 
 Commands:
-* Mouse: context menu with the right button
-* Keyboard:
+Mouse:
+- context menu with the right button
+
+Keyboard:
 - toggle window borders (Meta+t)
 - record (Meta+a) (the videos with audio will be saved in the user Videos folder or in the main user folder)
 - snapshot (Meta+c) (the pictures will be saved in the user Pictures folder or in the main user folder)
