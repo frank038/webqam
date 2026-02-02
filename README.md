@@ -16,7 +16,8 @@ Options:
 qcamera.sh WIDTH HEIGHT
 or
 python3 qcamera.py WIDTH HEIGHT
-WIDTH and HEIGHT is the right resolution of the webcam, otherwise the best resolution will be used.
+
+WIDTH and HEIGHT is one of the resolutions supported by your webcam, otherwise the best resolution will be used.
 
 Mouse:
 - context menu with the right button
