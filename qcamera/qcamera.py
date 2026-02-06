@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# version 0.1
+# version 0.1.1
 
 from PyQt6.QtCore import *
 from PyQt6.QtWidgets import *
@@ -596,7 +596,8 @@ class MyDialog(QMessageBox):
 
 
 #################
-app = QApplication([])
-window = MainWindow()
-QGuiApplication.setDesktopFileName("qcamera")
-app.exec()
+if __name__ == '__main__':
+    app = QApplication([])
+    QGuiApplication.setDesktopFileName("qcamera")
+    window = MainWindow()
+    app.exec()
