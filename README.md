@@ -8,19 +8,24 @@ Requirements:
 - glib python binding
 
 How to use:
-just execute qcamera.sh
+just execute webqam.sh
 or
-python3 qcamera.py
+python3 webqam.py
 
 Options:
-qcamera.sh WIDTH HEIGHT
+webqam.sh WIDTH HEIGHT
 or
-python3 qcamera.py WIDTH HEIGHT
+python3 webqam.py WIDTH HEIGHT
 
-WIDTH and HEIGHT is one of the resolutions supported by your webcam, otherwise the best resolution will be used.
+WIDTH and HEIGHT is one of the resolutions supported by your webcam, otherwise the saved resolution or the best resolution will be used.
 
 Mouse:
 - context menu with the right button
+
+Options:
+- video resolutions (supported by the webcams)
+- snapshot delay in seconds, from 0 (no delay) to 5
+- toggle window decoration
 
 Keyboard:
 - toggle window borders (Meta+t)
@@ -31,3 +36,6 @@ Keyboard:
 The webcam format/resolution can be changed through the context menu.
 
 This program does not support very old webcams (v4l1).
+
+qcamera is the previous implementation.
+
