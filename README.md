@@ -33,7 +33,9 @@ Keyboard:
 - snapshot (Meta+c) (the pictures will be saved in the user Pictures folder or in the main user folder)
 - exit (Meta+e)
 
-The webcam format/resolution can be changed through the context menu.
+Other options:
+- the last resolution used will be used as default at start
+- left mouse click in the window to show/hide the icons for snapshot and video record funzionality.
 
 This program does not support very old webcams (v4l1).
 
