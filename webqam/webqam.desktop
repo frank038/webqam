@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Webqam
+Exec=/FULL_PATH/webqam/webqam.sh
+Comment=Webcam
+Terminal=false
+Icon=/FULL_PATH/webqam/icons/webqam.svg
+Type=Application
+Categories=AudioVideo;
