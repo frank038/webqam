@@ -1,4 +1,4 @@
-# qcamera
+# Webqam
 A webcam application.
 
 Free to use and modify.
